@@ -7,7 +7,7 @@ import pprint
 
 # Create your views here.
 def index(request):
-    return HttpResponse("")
+    return HttpResponse(" hello")
 @csrf_exempt
 def show_values(request):
     if request.method == "GET":
