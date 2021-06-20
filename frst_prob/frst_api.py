@@ -19,11 +19,7 @@ class collected_data():
         self.lst=[]
         for dta in self.mydoc:
             self.lst.append(dta['gps'])
-            '''
-        for i in range(len(self.lst)):
-            print(i)
-            print(self.lst[i])
-'''
+            
 def final_values():
     adrs=[]
     i=0
